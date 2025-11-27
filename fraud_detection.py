@@ -5,7 +5,7 @@ import joblib
 
 ## load model
 
-model=joblib.load("packages\Fraud_detection.pkl")
+model=joblib.load("packages/Fraud_detection.pkl")
 
 st.title("Fraud Detection Prediction App")
 
@@ -46,3 +46,4 @@ if st.button("Predict"):
 
 st.markdown("---")
 st.caption("Developed by **Data Scientist Ngama Jude Chinedu** ⚡.")
+
