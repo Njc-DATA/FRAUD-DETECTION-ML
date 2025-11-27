@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import sklearn
 
 ## load model
 
@@ -46,4 +47,5 @@ if st.button("Predict"):
 
 st.markdown("---")
 st.caption("Developed by **Data Scientist Ngama Jude Chinedu** ⚡.")
+
 
