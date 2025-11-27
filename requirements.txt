@@ -2,3 +2,4 @@ streamlit
 pandas==2.2.2
 joblib
 scikit-learn==1.5.1
+Pipeline
